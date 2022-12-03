@@ -1,0 +1,68 @@
+body {
+    background-color:whitesmoke;
+    margin-top: 40px;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    animation: stripe 5s linear infinite  ;
+    
+}
+.flag{
+    justify-content: center;
+}
+.stripe:nth-child(2)
+{
+    animation-delay:0.5s;
+}
+.stripe:nth-child(3)
+{
+    animation-delay: 0.5s;
+}
+@keyframes stripe{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.stripe{
+    width: 300px;
+    height: 70px;
+}
+
+#saffron{
+    background-color:orange;
+}
+
+#white{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ashok_chakra{
+    height: 60px;
+    width: 60px;
+}
+
+
+#green{
+    background-color: lightgreen;
+}
+
+.message{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    justify-content: center;
+    width:fit-content;
+    height:fit-content;
+    
+}
